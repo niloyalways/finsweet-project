@@ -97,15 +97,39 @@ a {
     border-radius: 41px;
     color: black;
     padding: 16px 56px;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 16px;
-    font-family: "Poppins", sans-serif;
+    font-family: "Manrope", sans-serif;
     transition: .4s;
 }
 
 .bannar-btn:hover {
     background: transparent;
     color: #FCD980;
+}
+
+.bannar-btn-pricing {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    padding-left: 40px;
+    position: relative;
+}
+
+.bannar-btn-pricing i {
+    color: white;
+    align-items: center;
+    position: absolute;
+    top: 5px;
+    right: -25px;
+    transition:  .4s;
+    opacity: 0;
+}
+
+.bannar-btn-pricing:hover i {
+    right: -50px;
+    opacity: 1;
 }
 
 /* ===============================
