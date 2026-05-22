@@ -47,12 +47,12 @@ a {
     font-size: 16px;
     font-family: "Poppins", sans-serif;
     margin-left: 48px;
-    transition: .4s;
+    transition: .5s;
 }
 
 .nav-btn:hover {
-    background: rgba(0, 0, 0, .2);
-    color: bisque;
+    background: #FCD980;
+    color: black;
 }
 
 /* ===============================
@@ -115,23 +115,30 @@ a {
     color: white;
     padding-left: 40px;
     position: relative;
+    overflow: visible;
 }
 
 .bannar-btn-pricing i {
     color: white;
     align-items: center;
     position: absolute;
-    top: 5px;
-    right: -25px;
+    top: 4px;
+    right: -22px;
     transition:  .4s;
     opacity: 0;
 }
 
 .bannar-btn-pricing:hover i {
-    right: -50px;
+    right: -42px;
     opacity: 1;
 }
 
+/* ===============================
+        bannar css end
+================================== */
+/* ===============================
+        bannar css end
+================================== */
 /* ===============================
         bannar css end
 ================================== */
