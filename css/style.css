@@ -108,27 +108,32 @@ a {
     color: #FCD980;
 }
 
+.bannar-btn-price {
+    position: relative;
+    display: inline-block;
+}
+
 .bannar-btn-pricing {
     font-size: 16px;
     font-weight: 500;
     font-family: "Poppins", sans-serif;
     color: white;
     padding-left: 40px;
-    position: relative;
-    overflow: visible;
+    /* position: relative; */
+    /* overflow: visible; */
 }
 
-.bannar-btn-pricing i {
+.bannar-btn-price i {
     color: white;
     align-items: center;
     position: absolute;
-    top: 4px;
+    top: 6px;
     right: -22px;
     transition:  .4s;
     opacity: 0;
 }
 
-.bannar-btn-pricing:hover i {
+.bannar-btn-price:hover i {
     right: -32px;
     opacity: 1;
 }
@@ -136,9 +141,77 @@ a {
 /* ===============================
         bannar css end
 ================================== */
+
+
 /* ===============================
-        bannar css end
+        work css start
 ================================== */
+.work{
+    background: #F4F6FC;
+    padding: 128px 0px;
+}
+
+.work h3{
+    font-size: 48px;
+    font-weight: 600;
+    color: #282938;
+    line-height: 64px;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.work p{
+    font-size: 16px;
+    font-weight: 400;
+    color: gray;
+    line-height: 28px;
+    font-family: "Poppins", sans-serif;
+    width: 405px;
+    padding: 16px 0px;
+}
+
+.work-btn {
+    font-size: 18px;
+    font-weight: 500;
+    color: #2405F2;
+    line-height: 32px;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+}
+.work-btn a {
+    color: #2405F2;
+}
+
+.work-btn i {
+    position: absolute;
+    color: #2405F2;
+    top: 7px;
+    left: 180px;
+    transition: .4s;
+    opacity: 0;
+}
+
+.work-btn:hover i{
+    left: 190px;
+    opacity: 1;
+}
+
+.work .col-lg-6 h4{
+    color: #282938;
+    font-size: 32px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    line-height: 48px;
+    padding-top: 25px;
+    /* padding-bottom: 8px; */
+}
+
+.work .col-lg-6 p {
+    width: 303px;
+}
+
+
+
 /* ===============================
-        bannar css end
+        work css end
 ================================== */
