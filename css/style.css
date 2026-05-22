@@ -124,6 +124,7 @@ a {
 }
 
 .bannar-btn-price i {
+    cursor: pointer;
     color: white;
     align-items: center;
     position: absolute;
@@ -184,6 +185,7 @@ a {
 
 .work-btn i {
     position: absolute;
+    cursor: pointer;
     color: #2405F2;
     top: 7px;
     left: 180px;
