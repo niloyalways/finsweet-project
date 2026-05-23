@@ -10,6 +10,11 @@ a {
     text-decoration: none;
 }
 
+.box {
+    display: flex;
+    align-items: center;
+}
+
 /* ===============================
         common css end
 ================================== */
@@ -101,6 +106,7 @@ a {
     font-size: 16px;
     font-family: "Manrope", sans-serif;
     transition: .4s;
+    display: inline-block;
 }
 
 .bannar-btn:hover {
@@ -109,35 +115,39 @@ a {
 }
 
 .bannar-btn-price {
-    position: relative;
     display: inline-block;
-}
-
-.bannar-btn-pricing {
     font-size: 16px;
     font-weight: 500;
+    /* line-height: 32px; */
     font-family: "Poppins", sans-serif;
-    color: white;
+    position: relative;
     padding-left: 40px;
-    /* position: relative; */
-    /* overflow: visible; */
+    overflow: hidden;
+}
+
+.bannar-btn-price:hover {
+    overflow: visible;
+}
+
+.bannar-btn-price a {
+    color: white;
 }
 
 .bannar-btn-price i {
+    position: absolute;
     cursor: pointer;
     color: white;
-    align-items: center;
-    position: absolute;
-    top: 6px;
-    right: -22px;
-    transition:  .4s;
+    top: 5px;
+    left: 130px;
+    transition: .4s;
     opacity: 0;
 }
 
 .bannar-btn-price:hover i {
-    right: -32px;
+    left: 150px;
     opacity: 1;
 }
+
 
 /* ===============================
         bannar css end
@@ -147,12 +157,12 @@ a {
 /* ===============================
         work css start
 ================================== */
-.work{
+.work {
     background: #F4F6FC;
     padding: 128px 0px;
 }
 
-.work h3{
+.work h3 {
     font-size: 48px;
     font-weight: 600;
     color: #282938;
@@ -161,7 +171,7 @@ a {
 
 }
 
-.work p{
+.work p {
     font-size: 16px;
     font-weight: 400;
     color: gray;
@@ -179,6 +189,7 @@ a {
     font-family: "Poppins", sans-serif;
     position: relative;
 }
+
 .work-btn a {
     color: #2405F2;
 }
@@ -193,12 +204,12 @@ a {
     opacity: 0;
 }
 
-.work-btn:hover i{
+.work-btn:hover i {
     left: 190px;
     opacity: 1;
 }
 
-.work .col-lg-6 h4{
+.work .col-lg-6 h4 {
     color: #282938;
     font-size: 32px;
     font-weight: 500;
