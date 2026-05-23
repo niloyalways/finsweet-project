@@ -223,8 +223,79 @@ a {
     width: 303px;
 }
 
+/* ===============================
+        work css end
+================================== */
 
 
 /* ===============================
-        work css end
+        project css start
+================================== */
+.project{
+    padding: 128px 0px;
+}
+
+.project .box {
+    justify-content: space-between;
+}
+
+.project h3{
+     font-size: 48px;
+    font-weight: 600;
+    color: #282938;
+    line-height: 64px;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+.project-btn {
+    font-size: 16px;
+    font-weight: 500;
+    color: #282938;
+    line-height: 28px;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    overflow: hidden;
+    margin-right: 40px;
+}
+
+.project-btn:hover{
+    overflow: visible;
+}
+
+.project-btn a {
+    color: #282938;
+}
+
+.project-btn i {
+    position: absolute;
+    cursor: pointer;
+    color: #282938;
+    top: 7px;
+    left: 90px;
+    transition: .4s;
+    opacity: 0;
+}
+
+.project-btn:hover i {
+    left: 100px;
+    opacity: 1;
+}
+
+.project .col-lg-8 img{
+    width: 843px;
+    height: 570px;
+}
+
+
+.project .col-lg-4 .card2{
+    width: 405px;
+    height: 284px;
+    padding-bottom: 32px;
+}
+
+
+
+/* ===============================
+        project css end
 ================================== */
