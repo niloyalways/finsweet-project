@@ -318,15 +318,70 @@ a {
 
 }
 
+.project .col-lg-8 .overly h2 {
+    /* padding: 312px 36px 216px 48px; */
+    padding-top: 312px;
+    padding-left: 48px;
+    width: 390px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    line-height: 36px;
+    color: white;
+}
+
+.project .col-lg-8 .overly p {
+    padding-top: 16px;
+    /* padding-bottom: 16px; */
+    padding-left: 48px;
+    width: 320px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.project-btn-one {
+    padding-left: 48px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FCD980;
+    line-height: 32px;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+}
+
+.project-btn-one a {
+    color: #FCD980;
+}
+
+.project-btn-one i {
+    position: absolute;
+    cursor: pointer;
+    color: #FCD980;
+    top: 10px;
+    left: 150px;
+    transition: .4s;
+    opacity: 0;
+}
+
+.project-btn-one:hover i {
+    left: 170px;
+    opacity: 1;
+}
+
+
+
 .project .col-lg-4 .card2 {
     width: 405px;
     height: 284px;
     padding-bottom: 32px;
-} 
+}
 
 
 
-.project .card-two  {
+.project .card-two {
     position: relative;
     overflow: hidden;
 
@@ -351,8 +406,52 @@ a {
     box-sizing: border-box;
 }
 
+.project .col-lg-4 .card-two .overly-two h2 {
+    /* padding: 312px 36px 216px 48px; */
+    padding-top: 129px;
+    padding-left: 56px;
+    width: 313px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    line-height: 36px;
+    color: white;
+}
 
-.project .card-three  {
+.project-btn-two {
+    padding-left: 56px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FCD980;
+    line-height: 32px;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+}
+
+.project-btn-two a {
+    color: #FCD980;
+    padding-top: 10px;
+}
+
+.project-btn-two i {
+    position: absolute;
+    cursor: pointer;
+    color: #FCD980;
+    top: 9px;
+    left: 160px;
+    transition: .4s;
+    opacity: 0;
+}
+
+.project-btn-two:hover i {
+    left: 180px;
+    opacity: 1;
+}
+
+
+
+
+.project .card-three {
     position: relative;
     overflow: hidden;
 
@@ -367,14 +466,54 @@ a {
     top: 570px;
     left: 0;
     transition: .5s;
-
-
 }
 
 .project .card-three:hover .overly-three {
     top: 0px;
     left: 0px;
     box-sizing: border-box;
+}
+
+.project .col-lg-4 .card-three .overly-three h2 {
+    /* padding: 312px 36px 216px 48px; */
+    padding-top: 129px;
+    padding-left: 56px;
+    width: 313px;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.project-btn-three {
+    padding-left: 56px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FCD980;
+    line-height: 32px;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+}
+
+.project-btn-three a {
+    color: #FCD980;
+    padding-top: 10px;
+}
+
+.project-btn-three i {
+    position: absolute;
+    cursor: pointer;
+    color: #FCD980;
+    top: 9px;
+    left: 160px;
+    transition: .4s;
+    opacity: 0;
+}
+
+.project-btn-three:hover i {
+    left: 180px;
+    opacity: 1;
 }
 
 
