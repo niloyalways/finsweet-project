@@ -231,7 +231,7 @@ a {
 /* ===============================
         project css start
 ================================== */
-.project{
+.project {
     padding: 128px 0px;
 }
 
@@ -239,13 +239,14 @@ a {
     justify-content: space-between;
 }
 
-.project h3{
-     font-size: 48px;
+.project h3 {
+    font-size: 48px;
     font-weight: 600;
     color: #282938;
     line-height: 64px;
     font-family: "Poppins", sans-serif;
-    
+    padding-bottom: 64px;
+
 }
 
 .project-btn {
@@ -257,9 +258,11 @@ a {
     position: relative;
     overflow: hidden;
     margin-right: 40px;
+    padding-bottom: 64px;
+
 }
 
-.project-btn:hover{
+.project-btn:hover {
     overflow: visible;
 }
 
@@ -282,17 +285,101 @@ a {
     opacity: 1;
 }
 
-.project .col-lg-8 img{
+.project .col-lg-8 img {
     width: 843px;
     height: 570px;
+    margin-left: -12px;
+
 }
 
+.project .col-lg-8 {
+    position: relative;
+    overflow: hidden;
 
-.project .col-lg-4 .card2{
+}
+
+.project .col-lg-8 .overly {
+    width: 395px;
+    height: 570px;
+    position: absolute;
+    background: #1C1E53;
+    opacity: .42;
+    top: 0;
+    left: -440px;
+    transition: .5s;
+
+
+}
+
+.project .col-lg-8:hover .overly {
+    top: 0;
+    left: 0px;
+    box-sizing: border-box;
+
+}
+
+.project .col-lg-4 .card2 {
     width: 405px;
     height: 284px;
     padding-bottom: 32px;
+} 
+
+
+
+.project .card-two  {
+    position: relative;
+    overflow: hidden;
+
 }
+
+.project .card-two .overly-two {
+    width: 405px;
+    height: 252px;
+    position: absolute;
+    background: #1C1E53;
+    opacity: .42;
+    top: -252px;
+    left: 0;
+    transition: .5s;
+
+
+}
+
+.project .card-two:hover .overly-two {
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+}
+
+
+.project .card-three  {
+    position: relative;
+    overflow: hidden;
+
+}
+
+.project .card-three .overly-three {
+    width: 405px;
+    height: 284px;
+    position: absolute;
+    background: #1C1E53;
+    opacity: .42;
+    top: 570px;
+    left: 0;
+    transition: .5s;
+
+
+}
+
+.project .card-three:hover .overly-three {
+    top: 0px;
+    left: 0px;
+    box-sizing: border-box;
+}
+
+
+
+
 
 
 
