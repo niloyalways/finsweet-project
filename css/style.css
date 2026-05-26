@@ -302,7 +302,7 @@ a {
     width: 395px;
     height: 570px;
     position: absolute;
-    background: #1C1E53;
+    background: rgba(28, 30, 83, 9);
     opacity: .42;
     top: 0;
     left: -440px;
@@ -391,7 +391,7 @@ a {
     width: 405px;
     height: 252px;
     position: absolute;
-    background: #1C1E53;
+    background: rgba(28, 30, 83, 9);
     opacity: .42;
     top: -252px;
     left: 0;
@@ -461,7 +461,7 @@ a {
     width: 405px;
     height: 284px;
     position: absolute;
-    background: #1C1E53;
+    background: rgba(28, 30, 83, 9);
     opacity: .42;
     top: 570px;
     left: 0;
@@ -517,11 +517,69 @@ a {
 }
 
 
+/* ===============================
+        project css end
+================================== */
 
+/* ===============================
+        features css start
+================================== */
 
+.features{
+    padding: 128px 0px;
+    background: #F4F6FC;
+}
 
+.features .header h3 {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    line-height: 28px;
+    text-align: center;
+}
+
+.features .header p {
+    font-size: 48px;
+    width: 630px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    line-height: 64px;
+    text-align: center;
+    margin-left: 330px;
+    /* padding-bottom: 47px; */
+}
+
+.features .col-lg-4 {
+    background: white;
+    padding-top: 48px;
+    padding-left: 48px;
+    padding-bottom: 48px;
+    margin: 14px 18px;
+    width: 404px;
+}
+
+.features .col-lg-4 img {
+    padding-bottom: 25px;
+}
+
+.features .col-lg-4 h4 {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    line-height: 36px;
+    padding-bottom: 12px;
+}
+
+.features .col-lg-4 p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    line-height: 28px;
+    color: gray;
+    width: 324px;
+}
 
 
 /* ===============================
-        project css end
+        features css end
 ================================== */
