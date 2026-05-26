@@ -568,6 +568,7 @@ a {
     font-family: "Poppins", sans-serif;
     line-height: 36px;
     padding-bottom: 12px;
+    cursor: pointer;
 }
 
 .features .col-lg-4 p {
