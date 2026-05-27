@@ -584,3 +584,68 @@ a {
 /* ===============================
         features css end
 ================================== */
+
+/* ===============================
+        client css start
+================================== */
+
+.client{
+    padding: 128px 0px;
+}
+
+.client .col-lg-4 h2 {
+    font-size: 38px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    line-height: 56px;
+    width: 327px;
+}
+
+.client .col-lg-4 p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    line-height: 28px;
+    width: 327px;
+    color: gray;
+    padding-top: 16px;
+}
+
+.client .col-lg-8 p {
+    font-size: 32px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    line-height: 48px;
+    width: 843px;
+    padding-bottom: 48px;
+}
+
+.client .col-lg-8 .vp {
+    display: flex;
+    /* text-align: center; */
+}
+
+.client .col-lg-8 .vp-info {
+    cursor: pointer;
+    margin-left: 14px;
+    /* padding-top: 10px; */
+} 
+
+.client .col-lg-8 h3 {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    /* line-height: 32px; */
+}
+
+.client .col-lg-8 h4 {
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    /* line-height: 28px; */
+}
+
+
+/* ===============================
+        client css end
+================================== */
