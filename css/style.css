@@ -765,7 +765,8 @@ a {
     font-weight: 500;
     font-size: 16px;
     font-family: "Poppins", sans-serif;
-    transition: .5s;
+    transition: .4s;
+    cursor: pointer;
 }
 
 .inquiry .col-lg-6 .form .send-btn:hover {
@@ -774,7 +775,7 @@ a {
 }
 
 .inquiry .col-lg-6 .form .get-btn a {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     color: white;
     line-height: 32px;
@@ -789,13 +790,13 @@ a {
     position: absolute;
     color: white;
     top: 4931px;
-    left: 1163px;
+    left: 1140px;
     opacity: 0;
     transition: .4s;
 }
 
 .inquiry .col-lg-6 .form .get-btn:hover i{
-    left: 1183px;
+    left: 1170px;
     opacity: 1;
 }
 
