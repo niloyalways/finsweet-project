@@ -184,7 +184,7 @@ a {
 .work-btn {
     font-size: 18px;
     font-weight: 500;
-    color: #2405F2;
+    /* color: #2405F2; */
     line-height: 32px;
     font-family: "Poppins", sans-serif;
     position: relative;
@@ -302,7 +302,7 @@ a {
     width: 395px;
     height: 570px;
     position: absolute;
-    background-image: linear-gradient(138deg ,#1c1e536b ,#1C1E53);
+    background-image: linear-gradient(138deg, #1c1e536b, #1C1E53);
     /* opacity: .42; */
     top: 0;
     left: -440px;
@@ -391,7 +391,7 @@ a {
     width: 405px;
     height: 252px;
     position: absolute;
-    background-image: linear-gradient(300deg ,#1C1E53 ,#1c1e536b);
+    background-image: linear-gradient(300deg, #1C1E53, #1c1e536b);
     top: -252px;
     left: 0;
     transition: .5s;
@@ -460,7 +460,7 @@ a {
     width: 405px;
     height: 284px;
     position: absolute;
-    background-image: linear-gradient(300deg ,#1C1E53 ,#1c1e536b);
+    background-image: linear-gradient(300deg, #1C1E53, #1c1e536b);
     /* opacity: .42; */
     top: 570px;
     left: 0;
@@ -720,6 +720,7 @@ a {
     font-size: 32px;
     padding-top: 107px;
     padding-left: 96px;
+    cursor: pointer;
 
 }
 
@@ -744,13 +745,18 @@ a {
     padding-left: 32px;
     background: transparent;
     border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 10px;
+    border-radius: 8px;
     color: white;
     font-size: 16px;
     font-weight: 400;
     outline: none;
     box-sizing: border-box;
     align-items: center;
+    transition: .3s;
+}
+
+.inquiry .col-lg-6 .form .form-box input:hover{
+    border: 3px solid rgba(255, 255, 255, 0.5);
 }
 
 .inquiry .col-lg-6 .form .send-btn {
@@ -774,29 +780,32 @@ a {
     color: white;
 }
 
-.inquiry .col-lg-6 .form .get-btn a {
+
+.inquiry .get-btn {
+    position: relative;
     font-size: 16px;
     font-weight: 500;
-    color: white;
     line-height: 32px;
     font-family: "Poppins", sans-serif;
-    position: relative;
     padding-top: 30px;
     padding-left: 220px;
-    display: block;
+    cursor: pointer;
 }
 
-.inquiry .col-lg-6 .form .get-btn i {
+.inquiry .get-btn a{
+    color: white;
+}
+
+.inquiry .get-btn i {
     position: absolute;
     color: white;
-    top: 4931px;
-    left: 1140px;
+    top: 38px;
+    left: 385px;
     opacity: 0;
     transition: .4s;
 }
-
-.inquiry .col-lg-6 .form .get-btn:hover i {
-    left: 1160px;
+.inquiry .get-btn:hover i{
+    left: 400px;
     opacity: 1;
 }
 
@@ -982,7 +991,7 @@ a {
 
 }
 
-.last a:hover{
+.last a:hover {
     color: gray;
 }
 
