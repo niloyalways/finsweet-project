@@ -217,6 +217,7 @@ a {
     line-height: 48px;
     padding-top: 25px;
     /* padding-bottom: 8px; */
+    cursor: pointer;
 }
 
 .work .col-lg-6 p {
@@ -557,6 +558,7 @@ a {
     width: 404px;
 }
 
+
 .features .col-lg-4 img {
     padding-bottom: 25px;
 }
@@ -688,6 +690,7 @@ a {
     color: #2405F2;
     opacity: 0;
     transition: .4s;
+    cursor: pointer;
 }
 
 .faq .col-lg-4 .faq-btn:hover i {
@@ -698,11 +701,14 @@ a {
 .faq .accordion-header{
     border: 0px;
     box-shadow: 0px 0px transparent !important;
+    padding-top: 23px;
 }
 
 .faq .accordion-item{
     border: 0px;
-    padding-bottom: 25px;
+    padding-bottom: 22px;
+    border-bottom: 2px solid #ECECF1;
+
 }
 
 
@@ -715,14 +721,30 @@ a {
     background-color: transparent;
 }
 
+.faq .accordion-button:focus{
+    box-shadow: 0px 0px transparent;
+}
+
+.accordion-button:not(.collapsed)::after{
+    background-image: none;
+    content: "x";
+    transform: translateY(-45%) rotate(0);
+}
+
+.accordion-button::after{
+    background-image: none;
+    content: "+";
+    transform: translateY(-45%) rotate(0);
+}
+
 .faq .accordion-body{
-    margin: 0px 82px;
+    margin: 0px 83px;
     font-size: 18px;
     font-weight: 500;
     font-family: "Poppins", sans-serif;
     line-height: 32px;
     color: #282938;
-    border-bottom: 2px solid #ECECF1 ;
+    
 }
 
 .faq .accordion-button span {
