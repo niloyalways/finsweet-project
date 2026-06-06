@@ -590,6 +590,7 @@ a {
 
 .client {
     padding: 128px 0px;
+    background: rgba(244, 246, 252, .5);
 }
 
 .client .col-lg-4 h2 {
@@ -648,6 +649,96 @@ a {
 /* ===============================
         client css end
 ================================== */
+
+
+/* ===============================
+        faq css start
+================================== */
+.faq{
+    padding: 128px 0px;
+}
+
+.faq .col-lg-4 h3 {
+    font-size: 38px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    line-height: 56px;
+    width: 330px;
+    padding-bottom: 16px;
+    color: #282938;
+
+}
+
+.faq .col-lg-4 .faq-btn {
+    position: relative;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    line-height: 32px;
+}
+
+.faq .col-lg-4 .faq-btn a{
+     color: #2405F2;
+}
+
+.faq .col-lg-4 .faq-btn i{
+    position: absolute;
+    top: 7px;
+    left: 220px;
+    color: #2405F2;
+    opacity: 0;
+    transition: .4s;
+}
+
+.faq .col-lg-4 .faq-btn:hover i {
+    left: 240px;
+    opacity: 1;
+}
+
+.faq .accordion-header{
+    border: 0px;
+    box-shadow: 0px 0px transparent !important;
+}
+
+.faq .accordion-item{
+    border: 0px;
+    padding-bottom: 25px;
+}
+
+
+.faq .accordion-button{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    line-height: 36px;
+    color: #282938;
+    background-color: transparent;
+}
+
+.faq .accordion-body{
+    margin: 0px 82px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    line-height: 32px;
+    color: #282938;
+    border-bottom: 2px solid #ECECF1 ;
+}
+
+.faq .accordion-button span {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    line-height: 36px;
+    color: #2405F2;
+    padding-right: 59px;
+}
+
+/* ===============================
+        faq css end
+================================== */
+
+
 
 /* ===============================
         inquiry css start
