@@ -114,11 +114,10 @@ a {
     color: #FCD980;
 }
 
-.bannar-btn-price {
+/* .bannar-btn-price {
     display: inline-block;
     font-size: 16px;
     font-weight: 500;
-    /* line-height: 32px; */
     font-family: "Poppins", sans-serif;
     position: relative;
     padding-left: 40px;
@@ -144,6 +143,36 @@ a {
 }
 
 .bannar-btn-price:hover i {
+    left: 150px;
+    opacity: 1;
+} */
+
+
+
+.bannar-btn-price {
+    position: relative;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    padding-left: 40px;
+    padding-top: 2px;
+}
+
+.bannar-btn-price a{
+    color: white;
+}
+
+.bannar-btn-price i{
+    position: absolute;
+    top: 7px;
+    left: 140px;
+    color: white;
+    cursor: pointer;
+    transition: .4s;
+    opacity: 0;
+}
+
+.bannar-btn-price:hover i{
     left: 150px;
     opacity: 1;
 }
@@ -656,7 +685,7 @@ a {
 /* ===============================
         faq css start
 ================================== */
-.faq{
+.faq {
     padding: 128px 0px;
 }
 
@@ -679,11 +708,11 @@ a {
     line-height: 32px;
 }
 
-.faq .col-lg-4 .faq-btn a{
-     color: #2405F2;
+.faq .col-lg-4 .faq-btn a {
+    color: #2405F2;
 }
 
-.faq .col-lg-4 .faq-btn i{
+.faq .col-lg-4 .faq-btn i {
     position: absolute;
     top: 7px;
     left: 220px;
@@ -698,13 +727,13 @@ a {
     opacity: 1;
 }
 
-.faq .accordion-header{
+.faq .accordion-header {
     border: 0px;
     box-shadow: 0px 0px transparent !important;
     padding-top: 23px;
 }
 
-.faq .accordion-item{
+.faq .accordion-item {
     border: 0px;
     padding-bottom: 22px;
     border-bottom: 2px solid #ECECF1;
@@ -712,7 +741,7 @@ a {
 }
 
 
-.faq .accordion-button{
+.faq .accordion-button {
     font-size: 24px;
     font-weight: 500;
     font-family: "Poppins", sans-serif;
@@ -721,30 +750,30 @@ a {
     background-color: transparent;
 }
 
-.faq .accordion-button:focus{
+.faq .accordion-button:focus {
     box-shadow: 0px 0px transparent;
 }
 
-.accordion-button:not(.collapsed)::after{
+.accordion-button:not(.collapsed)::after {
     background-image: none;
     content: "x";
     transform: translateY(-45%) rotate(0);
 }
 
-.accordion-button::after{
+.accordion-button::after {
     background-image: none;
     content: "+";
     transform: translateY(-45%) rotate(0);
 }
 
-.faq .accordion-body{
+.faq .accordion-body {
     margin: 0px 83px;
     font-size: 18px;
     font-weight: 500;
     font-family: "Poppins", sans-serif;
     line-height: 32px;
     color: #282938;
-    
+
 }
 
 .faq .accordion-button span {
@@ -868,7 +897,7 @@ a {
     transition: .3s;
 }
 
-.inquiry .col-lg-6 .form .form-box input:hover{
+.inquiry .col-lg-6 .form .form-box input:hover {
     border: 3px solid rgba(255, 255, 255, 0.5);
 }
 
@@ -905,7 +934,7 @@ a {
     cursor: pointer;
 }
 
-.inquiry .get-btn a{
+.inquiry .get-btn a {
     color: white;
 }
 
@@ -917,7 +946,8 @@ a {
     opacity: 0;
     transition: .4s;
 }
-.inquiry .get-btn:hover i{
+
+.inquiry .get-btn:hover i {
     left: 400px;
     opacity: 1;
 }
