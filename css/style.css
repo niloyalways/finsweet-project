@@ -750,6 +750,10 @@ a {
     background-color: transparent;
 }
 
+.faq .accordion-button span{
+    margin-bottom: 16px;
+}
+
 .faq .accordion-button:focus {
     box-shadow: 0px 0px transparent;
 }
@@ -1102,13 +1106,25 @@ a {
     font-family: "Poppins", sans-serif;
 }
 
-.footer .col-lg-6 i {
+/* .footer .col-lg-6 i {
     color: white;
     width: 47px;
-    /* height: 47px; */
     padding-top: 18px;
-    /* margin-left: 8px; */
     cursor: pointer;
+} */
+
+.footer .col-lg-6 ul {
+    display: flex;
+    column-gap: 26px;
+    padding: 0px;
+    list-style: none;
+}
+
+.footer .col-lg-6 ul li i{
+    display: flex;
+    list-style: none;
+    color: white;
+    
 }
 
 
@@ -1127,6 +1143,7 @@ a {
     padding: 32px 0;
     justify-content: center;
     align-items: center;
+    /* background: black; */
 }
 
 .last h2 {
